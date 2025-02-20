@@ -4,6 +4,24 @@ Welcome to the companion app of Odyssey Lift-off Lab! You can [find the lab's in
 
 You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
 
+> **Note**
+>
+> The original repo is [here](https://github.com/apollographql/odyssey-lift-off-lab), and it might have been updated since following the course.
+>
+> To keep it up to date:
+> ```
+> git remote add upstream https://github.com/apollographql/odyssey-lift-off-lab
+> git fetch upstream
+> git diff main..upstream/main --name-only # shows files that diverge
+> git pull --rebase upstream main
+> git push -f
+> ```
+>
+> I like creating a branch before this rebases, so that I can understand (perhaps more easily) the delta. I name them as `solution_<YYYY><MM><DD>`. This is because this repo is not a "fork", but an implementation/solution on top of the course.
+>
+> Additional updates would merit additional branches, which are then merged on top of "main"
+>
+
 ## How to use this repo
 
 The lab outlines the requirements for this challenge. This codebase is the starting point of your journey!
